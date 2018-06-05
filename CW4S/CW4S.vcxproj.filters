@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="描画フレームワーク">
+      <UniqueIdentifier>{015a8975-66a5-42bb-a719-9fb828bdffaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="描画フレームワーク\DirectX9">
+      <UniqueIdentifier>{972c1d82-4844-4a87-81a3-7272488baeb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ゲームループ（仮）">
+      <UniqueIdentifier>{b35515a6-d8f4-46e2-b767-473d795b4a11}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoop.cpp">
+      <Filter>ゲームループ（仮）</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectX9.h">
+      <Filter>描画フレームワーク\DirectX9</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLoop.h">
+      <Filter>ゲームループ（仮）</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
